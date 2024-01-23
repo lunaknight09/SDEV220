@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 22 20:36:10 2024
-
-@author: nhopk
-"""
 # 3.1 How many seconds are in an hour?
 seconds_in_minute = 60
 minutes_in_hour = 60
