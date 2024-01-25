@@ -3,9 +3,13 @@
 #Jan 25,2023
 
 # 4.1
-secret = 7  # You can choose any number between 1 and 10
-guess = 4   # You can choose any number between 1 and 10
+# Choose a number between 1 and 10 and assign it to the variable secret
+secret = 7
 
+# Select another number between 1 and 10 and assign it to the variable guess
+guess = 5
+
+# Write the conditional tests
 if guess < secret:
     print('Too low')
 elif guess > secret:
@@ -13,18 +17,31 @@ elif guess > secret:
 else:
     print('Just right')
 
-# 4.2
-small = True   # Assign True or False
-green = False  # Assign True or False
 
-if small and green:
-    print('Match: pea')
-elif small and not green:
-    print('Match: cherry')
-elif not small and green:
-    print('Match: watermelon')
-else:
-    print('Match: pumpkin')
+# 4.2
+# Assign True or False to variables
+small = True
+green = True
+
+# Fruits or vegetables
+fruit_or_vegetable = "pea"
+
+# Check if the fruit or vegetable is small and green
+if fruit_or_vegetable == "pea":
+    small = True
+    green = True
+elif fruit_or_vegetable == "cherry":
+    small = True
+    green = False
+elif fruit_or_vegetable == "watermelon":
+    small = False
+    green = True
+elif fruit_or_vegetable == "pumpkin":
+    small = False
+    green = False
+
+# Print the results
+print(f"{fruit_or_vegetable.capitalize()} is {'small' if small else 'not small'} and {'green' if green else 'not green'}.")
 
 # 6.1
 for value in [3, 2, 1, 0]:
