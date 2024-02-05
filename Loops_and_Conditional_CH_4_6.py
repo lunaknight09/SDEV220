@@ -2,6 +2,8 @@
 #Module 2 Loops and Conditionals
 #Jan 25,2023
 
+import requirements.txt
+
 # 4.1
 # Choose a number between 1 and 10 and assign it to the variable secret
 secret = 7
