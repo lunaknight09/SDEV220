@@ -2,6 +2,8 @@
 #Data Class for Computer Parts
 #Jan 31, 2023
 
+import requirements.txt
+
 class CustomGamingComputerBuild:
     def __init__(self, processor, graphics_card, memory_size, storage_capacity):
         self.__processor = processor
