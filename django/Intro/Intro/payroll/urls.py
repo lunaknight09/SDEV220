@@ -8,6 +8,8 @@ Created on Sun Feb 18 16:23:37 2024
 from django.urls import path, include
 
 urlpatterns = [
-    path("", views.homePage #put function name here
-         )
+    path("", views.homePage), #put function name here
+    path("simple", views.simple),
+    path("tipper", views.inputs),
+    path("results", views.calculateTip)    
 ]
