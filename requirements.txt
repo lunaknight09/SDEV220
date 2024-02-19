@@ -1,1 +1,3 @@
 #requirements.txt file
+
+emoji==2.9.0
