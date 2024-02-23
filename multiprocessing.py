@@ -25,3 +25,8 @@ if __name__ == "__main__":
     # Wait for all threads to finish
     for thread in threads:
         thread.join()
+
+
+#bug report I had no struggles with using threading but did with multiprocessing
+#as my keyword to import and use, I wanted to try the way I knew versus something 
+#new
